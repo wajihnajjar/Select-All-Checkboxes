@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    width: 24vw;
+    margin: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left:1.5rem;
+    margin-bottom: calc(20vh / 6 - 5px);
+    
+    input{
+        margin-right: 1rem;
+   
+    }
+}
+.selectAll{
+    display: flex;
+    width: 100%;
+    border: 2px #e0e3e7 solid;
+    background-color: #e0e3e7;
+    padding-top: 1.5rem;
+   padding-left:1.5rem;
+    padding-bottom: 0.7rem;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px; 
+margin-bottom: 0.7rem;
+    input{
+        margin-right: 1rem;
+
+    }
+}
+.all{
+    flex-direction: column;
+    display: flex;
+
+    height: 50vh;
+    width: 50vw;
+    background-color: #eef2f6;
+    border-radius: 15px;
+}
+
